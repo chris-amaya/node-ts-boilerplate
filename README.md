@@ -1,14 +1,14 @@
 # My Node boilerplate
 
-this is a basic boilerplate that fixes my user needs. this boilerplate uses
-`Express`, `TypeScript` and `Jest`.
+this is a basic boilerplate that meets my personal requirements. this
+boilerplate uses `Express`, `TypeScript` and `Jest`.
 
 # Quick Start
 
 first, clone the repository
 
 ```
-git clone https://github.com/chris-amaya/node-ts-boilerplate
+git clone https://github.com/chris-amaya/node-ts-boilerplate.git
 ```
 
 install the dependencies
