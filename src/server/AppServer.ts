@@ -20,17 +20,13 @@ export default class AppServer {
     this.app.use(express.json())
   }
 
-  init(callback: Function) {
-    this.httpServer.listen(this.port, () => callback())
-  }
-
   routes() {
     this.app.get('/', (req, res) => {
       res.json({test: 'works'})
     })
   }
 
-  test() {
-    return 'hello'
+  init(callback: Function) {
+    this.httpServer.listen(this.port, () => callback())
   }
 }
